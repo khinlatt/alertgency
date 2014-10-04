@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   root to: 'landin#home'
   get '/landin' => 'landin#home'
 
-  resources :buttons, :notifications
+  resources :buttons, :contacts
 end
